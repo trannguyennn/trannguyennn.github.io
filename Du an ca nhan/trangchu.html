@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width">
+     <meta name="description" content="">
+     <meta name="keywords" content="Tran Nguyen Photography, Studio chuyên nghiệp">
+     <meta name="author" content="Tran Nguyen">
+     <title>Tran Nguyen Photos | Trang chủ</title>
+     <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Tran Nguyen</span> Photos</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="trangchu.html">Trang chủ</a></li>
+            <li><a href="gioithieu.html">Giới thiệu</a></li>
+            <li><a href="dichvu.html">Dịch vụ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="nguyen">
+      <div class="container">
+        
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>DỊCH VỤ CHỤP ẢNH, QUAY VIDEO CỦA CHÚNG TÔI</h1>
+        
+      </div>
+    </section>
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./img/noithat.jpg">
+          <h3>Chụp ảnh kiến trúc, nội thất</h3>
+          <p>Dịch vụ chụp ảnh, quay video kiến trúc, nội thất của TRAN NGUYEN PHOTOS mang đến những bức ảnh tuyệt vời nhất qua không gian kiến trúc của bạn. Chúng tôi chuyên thực hiện các dự án như:
+            Chụp ảnh căn hộ, Airbnb, biệt thự…
+            Chụp ảnh khách sạn, resort, hotel, homestay
+            Chụp ảnh nhà hàng, bar club, coffee, cửa hàng, spa, văn phòng…</p>
+        </div>
+        <div class="box">
+          <img src="./img/anhcuoi.jpeg">
+          <h3>Chụp phóng sự cưới</h3>
+          <p>Chúng tôi chuyên chụp ảnh, quay video đặc biệt dưới dạng phóng sự cưới với những hình ảnh bắt bắt trọn từng khoảnh khắc trong ngày trọng đại của bạn. Chúng tôi đã thực hiện những dự án quan trọng cho các ngôi sao, doanh nhân và nhận được sự hài lòng từ quý khách hàng.</p>
+        </div>
+        <div class="box">
+          <img src="./img/sukien.jpeg">
+          <h3>Chụp ảnh sự kiện, hội nghị</h3>
+          <p>Chụp ảnh sự kiện, hội nghị của chúng tôi là sự lựa chọn của nhiều cá nhân – công ty trên khắp cả nước. Chúng tôi luôn mang đến sự chuyên nghiệp, uy tín, chất lượng, luôn bảo đảm sự hài lòng cho khách hàng.</p>
+        </div>
+      </div>
+    </section>
+
+    <button class="nut-mo-chatbox" onclick="moForm()">Chat</button>
+<div class="Chatbox" id="myForm">
+  <form action="" class="form-container">
+    <h1>Chatbox</h1>
+
+    <label for="msg"><b>Lời Nhắn</b></label>
+    <textarea placeholder="Bạn hãy nhập lời nhắn.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Gửi</button>
+    <button type="button" class="btn nut-dong-chatbox" onclick="dongForm()">Đóng</button>
+  </form>
+</div>
+<script>
+  /*Hàm Mở Form*/
+function moForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+/*Hàm Đóng Form*/
+function dongForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+    <footer>
+      <p>Tran Nguyen Photos, Copyright &copy; 2022</p>
+    </footer>
+  </body>
+</html>
