@@ -196,23 +196,17 @@ footer{
   #newsletter form,
   #boxes .box,
   article#main-col,
-  aside#sideb{
-    margin: auto;
-    width: 100%;
-    min-height: 5px;    
-    text-overflow: clip;
-    text-align: center;
-    
-    
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
   }
-}
 
   header{
-    margin: auto;
-    text-align: center;
-    
-}
+    padding-bottom:20px;
+  }
 
+}
 
 {box-sizing: border-box;}
 
@@ -247,7 +241,7 @@ footer{
   background-color: white;
 }
 
-/* thiết lập style textarea */
+
 .form-container textarea {
   width: 100%;
   padding: 5px;
@@ -276,12 +270,12 @@ footer{
   opacity: 0.8;
 }
 
-/* Thiết lập màu nền cho nút đóng chatbox */
+
 .form-container .nut-dong-chatbox {
   background-color: red;
 }
 
-/* Thêm hiệu ứng hover cho nút*/
+
 .form-container .btn:hover, .nut-mo-chatbox:hover {
   opacity: 1;
 }
