@@ -196,21 +196,16 @@ footer{
   #newsletter form,
   #boxes .box,
   article#main-col,
-  aside#sideb{
-    margin: auto;
-    width: 100%;
-    min-height: 5px;    
-    text-overflow: clip;
-    text-align: center;
-    
-    
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
   }
-}
 
   header{
-    margin: auto;
-    text-align: center;
-    
+    padding-bottom:20px;
+  }
+
 }
 
 
